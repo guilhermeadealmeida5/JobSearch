@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JobSearch.App.Views.Visualizer">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="50"/>
+                </Grid.ColumnDefinitions>
+                <ImageButton Style="{StaticResource BackButton}" Clicked="GoBack"/>
+                <Label VerticalOptions="Center" Text="JobSearch" Style="{StaticResource Title}" Grid.Column="1"/>
+
+            </Grid>
+            <BoxView Color="#D7CCFF" HeightRequest="1"/>
+            <ScrollView>
+                <StackLayout>
+                    <Grid RowSpacing="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Label Text="Digital Ocean" Style="{StaticResource TextSecondary}" />
+                        <Label Text="Back-End Developer" Grid.Row="1" Style="{StaticResource TextPrimary}"/>
+                        <Label Text="São Paulo, SP" Grid.Row="2"  Style="{StaticResource TextSecondary}"/>
+
+                        <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="7.0-11k" Style="{StaticResource MoneyLabel}"/>
+                                    <Span Text=" BRL" Style="{StaticResource CurrencyLabel}"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <Label Text="CLT" Grid.Row="4" Style="{StaticResource TextPrimary}"/>
+                        <Label Text="Tags" Grid.Row="5"/>
+
+                        <Label Grid.Row="0" Grid.Column="1" Style="{StaticResource TextPrimary}" HorizontalOptions="End">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Pub. "/>
+                                    <Span Text="08/01/1999"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <Label Grid.Row="1" Grid.Column="1" Style="{StaticResource IdLabel}">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="id. "/>
+                                    <Span Text="123456"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </Grid>
+                    <Label Style="{StaticResource TextPrimary}" Text="Interessados enviar E-mail para:"/>
+                    <Label Style="{StaticResource TextSecondary}" Text="rh@digitalocean.com"/>
+                    <BoxView Color="#D7CCFF" HeightRequest="1"/>
+                    <Label Style="{StaticResource MoneyLabel}" Text="Descrição da empresa" />
+                    <Label Style="{StaticResource TextPrimary}" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+                    <Label Style="{StaticResource MoneyLabel}" Text="Descrição do trabalho"/>
+                    <Label Style="{StaticResource TextPrimary}" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+                    <Label Style="{StaticResource MoneyLabel}" Text="Beneficios"/>
+                    <Label Style="{StaticResource TextPrimary}" Text="Vale alimentação, vale refeição, convênio"/>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,11 @@
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\bin\Release\JobSearch.Domain.dll
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\bin\Release\JobSearch.Domain.pdb
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\obj\Release\JobSearch.Domain.csproj.AssemblyReference.cache
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\obj\Release\JobSearch.Domain.Utility.Language.Fields.resources
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\obj\Release\JobSearch.Domain.Utility.Language.Messages.resources
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\obj\Release\JobSearch.Domain.csproj.GenerateResource.cache
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\obj\Release\JobSearch.Domain.csproj.CoreCompileInputs.cache
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\obj\Release\JobSearch.Domain.csproj.CopyComplete
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\obj\Release\JobSearch.Domain.dll
+C:\Users\guilh\source\repos\AppJobSearch\JobSearch.Domain\obj\Release\JobSearch.Domain.pdb

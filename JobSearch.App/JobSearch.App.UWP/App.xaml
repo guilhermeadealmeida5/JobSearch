@@ -1,0 +1,18 @@
+﻿<Application
+    x:Class="JobSearch.App.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JobSearch.App.UWP">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="ButtonBackground" Color="#623CEA"/>
+            <SolidColorBrush x:Key="ButtonBackgroundPointerOver" Color="#3f18c9"/>
+            <SolidColorBrush x:Key="ButtonBackgroundPressed" Color="#2d0f98"/>
+            
+            <SolidColorBrush x:Key="ButtonForeground" Color="#fff"/>
+            <SolidColorBrush x:Key="ButtonForegroundPointerOver" Color="#fff"/>
+            <SolidColorBrush x:Key="ButtonForegroundPressed" Color="#fff"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
